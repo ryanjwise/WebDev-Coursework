@@ -1,13 +1,58 @@
 /* Selector {
     Property: value;
 } */
+* {
+    text-align: center;
+}
 
-h2 {
-    color:red;
+body {
+background-image: url(background_HTML.jpg);
+background-size: cover;
+}
+
+h2, p {
+    color:#965B8D;
+    text-align: center;
+    border: 5px solid #D9BE6C;
+    cursor: pointer;
 }
 p {
-    color:pink;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 100%;
+    font-family: 'Poiret One', cursive;
 }
 p { 
-    color:green;
+    color: rgba(76, 179, 98);
+}
+
+img{
+    float: left;
+}
+
+footer{
+    clear: both;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    color: rgba(75, 151, 114, 0.8);
+}
+
+.webtext{
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2)
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2)
 }
