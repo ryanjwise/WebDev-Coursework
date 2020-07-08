@@ -1,23 +1,22 @@
-h2{
-    color:blue;
+h2 {
+  color: blue;
 }
 
 .boxmodel {
-    border: 5px solid red;
-    display: inline-block;
-    padding: 5px 20px;
-    margin: 20px;
-    width: 33px;
-    height: 55px;
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 33px;
+  height: 55px;
 }
 
-p{
-    font-size: 20px;
-    text-transform: ;
-    list-style: ;
-
+p {
+  font-size: 20px;
+  text-transform: capitalize;
+  list-style: inside;
 }
 
-span{
-    font-size: 2em;
+span {
+  font-size: 2em;
 }

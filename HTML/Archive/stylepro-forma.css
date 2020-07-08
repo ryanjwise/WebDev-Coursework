@@ -1,6 +1,7 @@
 /* Cascading Style Sheets 
 CSS will always apply the last applicable selection */
-
-Selector {
-    Property: value;
-}
+/*
+*Selector {
+*  property: value;
+*}
+*/

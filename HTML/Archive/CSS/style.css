@@ -2,57 +2,58 @@
     Property: value;
 } */
 * {
-    text-align: center;
+  text-align: center;
 }
 
 body {
-background-image: url(background_HTML.jpg);
-background-size: cover;
+  background-image: url(background_HTML.jpg);
+  background-size: cover;
 }
 
-h2, p {
-    color:#965B8D;
-    text-align: center;
-    border: 5px solid #D9BE6C;
-    cursor: pointer;
+h2,
+p {
+  color: #965b8d;
+  text-align: center;
+  border: 5px solid #d9be6c;
+  cursor: pointer;
 }
 p {
-    line-height: 20px;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 100%;
-    font-family: 'Poiret One', cursive;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 100%;
+  font-family: "Poiret One", cursive;
 }
-p { 
-    color: rgba(76, 179, 98);
-}
-
-img{
-    float: left;
+p {
+  color: rgba(76, 179, 98);
 }
 
-footer{
-    clear: both;
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
 }
 
 li {
-    list-style: none;
-    display: inline;
-    color: rgba(75, 151, 114, 0.8);
+  list-style: none;
+  display: inline;
+  color: rgba(75, 151, 114, 0.8);
 }
 
-.webtext{
-    border: 5px dashed green;
+.webtext {
+  border: 5px dashed green;
 }
 
 .active {
-    color: red;
+  color: red;
 }
 
 #div1 {
-    background: rgba(0, 0, 255, 0.2)
+  background: rgba(0, 0, 255, 0.2);
 }
 
 #div2 {
-    background: rgba(255, 0, 0, 0.2)
+  background: rgba(255, 0, 0, 0.2);
 }
