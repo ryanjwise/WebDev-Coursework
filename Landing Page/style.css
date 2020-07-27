@@ -2,3 +2,22 @@
   max-width: 450px;
   margin-bottom: 20px;
 }
+
+.title {
+  text-align: left;
+}
+
+
+.cardstack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.card {
+  padding: 20px;
+}
+
+.btn btn-primary {
+  text-decoration-color: white;
+}
