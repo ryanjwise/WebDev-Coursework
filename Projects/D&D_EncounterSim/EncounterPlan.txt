@@ -1,0 +1,25 @@
+Prototype just two creatures.
+
+prompt("How many simulation loops would you like to do?")
+set loops
+Set creature 1 name
+Set creature 2 name
+
+function getStats {
+   stats.push(prompt ("What is the AC?"))
+   ...
+}
+
+Set creature 1 stats [HP, AC, InitMod, Attacks/Round, +To Hit, ]
+Set creature 2 stats ...
+
+for loops {
+    creature1Init =math.random (1-20)+stats[2]
+    creature2Init
+    if creature1Init>creature2Init then {
+
+    }
+    else {
+        
+    }
+}
