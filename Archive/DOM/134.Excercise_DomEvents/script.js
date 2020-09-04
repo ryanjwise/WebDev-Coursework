@@ -1,6 +1,7 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+var list = document.querySelectorAll("ul")
 
 function inputLength() {
 	return input.value.length;
@@ -25,6 +26,23 @@ function addListAfterKeypress(event) {
 	}
 }
 
+// Toggles the .done class on any item theat triggers it. 
+// function toggleList () {
+// 	event.currentTarget.classList.toggle("done");
+// }
+
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
+
+//loops through the list, and adds a "click" listener to each item.
+// for (var i=0; i < list.length; i++){
+// 	list[i].addEventListener("click", toggleList);
+// }
+
+function toggleList(event) {
+	if (event.target.tagName === "LI") {
+		event.target.classList.toggle("done");
+	}
+}
+ul.addEventListener("click", toggleList);
