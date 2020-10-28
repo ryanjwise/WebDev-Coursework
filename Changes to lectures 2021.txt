@@ -1,0 +1,29 @@
+You're going to love this one: we have updated all ZTM courses to be 2021 ready! That means free updated videos and content for you!! Our goal as instructors at ZTM is to be known for always updated content and material. You can find the updated lecture titles and numbers below for each course. Remember, if you are enrolled in these courses you get the updates for free and we made it so you don’t have to rewatch the entire course, but instead go back and watch the new/updates lectures if you want to stay up to date. Please help us continue to dedicate time to these courses by leaving a review anywhere on the internet about ZTM :grimacing: and help us keep growing!
+
+ Lecture #s only apply to Udemy students, if you are an Academy member :zerobot: you can ignore them!
+:one: 
+Complete Web Developer in 2021: Zero to Mastery:
+Lecture 164: ES2020 Part 1
+Lecture 165: ES2020 Part 2
+Lecture 166: ES2020 Part 3
+Lecture 167: Exercise: ES2020
+Lecture 201: Update to Latest Node.js and NPM
+Lecture 204: Why Update Packages?
+Lecture 224: Keeping Your Projects Up to Date
+Lecture 225: Exercise: React 17
+Lecture 226: Solution: React 17
+Lecture 241: ES2020: allSettled()
+Lecture 253: Clarifai API Updates, Models and Troubleshooting
+Lecture 259: Introduction To Node.js
+Lecture 263: ES2020: globalThis
+Lecture 266: ES6 Modules In Node
+Lecture 315: Deploying Our Files
+Lecture 339: React Hooks
+Lecture 340: React Hooks 2
+Lecture 341: React Hooks 3
+Lecture 342: React Hooks 4
+Lecture 343: React Hooks 5
+Lecture 344: React Hooks 6
+Lecture 345: React Hooks 7
+Lecture 346: React Hooks 8
+Lecture 348: React Hooks 9
