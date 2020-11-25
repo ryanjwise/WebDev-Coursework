@@ -1,0 +1,31 @@
+h1
+{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 153, 124);
+}
+
+p{
+    font-size: 1.1em;
+    text-indent: 2em;
+    text-align: Left;
+    font-family: 'Lucida Sans', sans-serif;
+    padding-top: 0em;
+}
+
+details
+{
+    text-indent: 2em;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: slategray;
+}
+
+a
+{
+    color: tomato;
+}
