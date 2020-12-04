@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Debug This</title>
+        <style>
+            form{
+            padding: 10px;
+            background-color:darkgrey;
+            width: 45%;
+            }
+            .container {
+            margin: 20px;
+            }
+            #gender, #address{
+            margin-left: 10%;
+            }
+            button {
+            background-color: white;
+            padding: 10px 25px;
+            text-align: center;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            color: black;
+            border-width: 3px;
+            }
+            .submit{
+                border-color: blue;
+            }
+            .clear{
+                border-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Student’s Information Form </h1>
+        <form>
+            <div class="container">
+                <label for="studentName"> Name </label>
+                <input type="text" id="studentName" />
+            </div>
+            <div class="container">
+                <label for="studentEmail"> Email </label>
+                <input type="email" id="studentEmail" />
+            </div>
+            <div class="container">
+                <label for="gender"> Gender </label> <br/>
+                <input type="radio" id="gender"
+                name="gender" value="male" /> Male
+                <br/>
+                <input type="radio" id="gender"
+                name="gender" value="female"/> Female
+                <br/>
+            </div>
+            <div class="container">
+                <label for="address"> Address </label>
+                <br/>
+                <textarea id="address" rows="5">
+                </textarea>
+            </div>
+            <div class="container">
+                <button type="submit" class="submit">
+                Submit </button>
+                <button type="clear" class="clear">
+                Clear </button>
+            </div>
+        </form>
+    </body>
+</html>
