@@ -1,46 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTMLAUTHORING_Wise_13</title>
-        <style>
-            form{
-                background-color: beige;
-                padding: 5px;
-                min-width: 400px;
-                width: 40%;
-            }
-            input{
-                margin-left: 10px;
-            }
-            textarea{
-                margin-left: 10%;
-                width: 90%;
-            }
-            .container{
-                padding: 10px;
-            }
+  <head>
+    <title>HTMLAUTHORING_Wise_13</title>
+    <style>
+      form {
+        background-color: beige;
+        color: grey;
+        padding: 5px;
+        min-width: 400px;
+        width: 40%;
+        display: inline-flex;
+        flex-direction: column;
+      }
+      .container {
+        padding: 10px;
+      }
+      input {
+        float: right;
+        padding: 0px;
+        width: calc(100% - 130px);
+      }
+      textarea {
+        padding: 0px;
+        width: 100%;
+      }
+      h1 {
+        margin: 10px;
+      }
+      label {
+        width: 120px;
+        float: left;
+      }
+      .formbutton {
+        margin-left: 10px;
+        background-color: linen;
+        color: grey;
+        font-weight: bold;
+        font-stretch: ultra-expanded;
+        font-variant: small-caps;
+        font-size: 1.3em;
+      }
+      .formbutton:hover {
+        background-color: green;
+        color: white;
+      }
 
-        </style>
-    </head>
-    <body>
-        <h1>Contact Us!</h1>
-        <form>
-            <div class="container">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName"/><br>
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName"/>
-            </div>
-            <div class="container">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email"/><br>
-                <label for="contactNumber">Contact Number</label>
-                <input type="tel" id="contactNumber" name="contactNumber"/>
-            </div>
-            <div class="container">
-                <label for="comments">Comments</label><br>
-                <textarea id="comments" name="comments" rows="5"></textarea>
-            </div>
-        </form>
-    </body>
+      a{
+          margin-left: 20px;
+          font-size: 1.2em;
+          color: grey;
+      }
+      a:link{
+          color: green;
+      }
+      a:hover{
+        color: salmon;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Contact Us!</h1>
+      <div class="container">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" />
+      </div>
+      <div class="container">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" /><br />
+        <label for="contactNumber">Contact Number</label>
+        <input type="tel" id="contactNumber" name="contactNumber" />
+      </div>
+      <div class="container">
+        <label for="comments">Comments</label><br />
+        <textarea id="comments" name="comments" rows="5"></textarea>
+      </div>
+      <div class="buttons">
+        <button type="reset" class="formbutton">reset</button>
+        <button type="submit" class="formbutton">submit</button>
+        <a href="https://theodinproject.com/home">Or click here to visit us!</a>
+      </div>
+    </form>
+  </body>
 </html>
