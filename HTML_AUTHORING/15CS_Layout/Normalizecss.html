@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet"
+    />
+    <title>Page Layout</title>
+  </head>
+  <style>
+    #container {
+      width: 90%;
+      background-color: #eee;
+      margin: 0 auto;
+      padding-left: 3px;
+      padding-right: 3px;
+      font-family: Verdana;
+      font-size: 1.1em;
+    }
+
+    header {
+      text-align: center;
+      background-color: #121212;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    footer {
+      border-top: 1px solid black;
+      font-size: 0.75em;
+      clear: both;
+    }
+
+    #colA {
+      width: 20%;
+      float: left;
+      border-right: 1px solid black;
+      padding-right: 3px;
+    }
+
+    #colB {
+      width: 57%;
+      float: left;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    #colC {
+      width: 20%;
+      float: left;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #colA,
+      #colB,
+      #colC {
+        float: none;
+        width: 100%;
+      }
+
+      #colA {
+        border-right: none;
+      }
+    }
+  </style>
+  <body>
+    <div id="container">
+      <header><h1>Connecticut News</h1></header>
+      <div id="colA">
+        <h2>Connecticut Cold in the Winter</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor
+          risus lorem. Nulla consequat ultrices arcu a elementum. Mauris mollis
+          tincidunt nibh, vel tincidunt enim luctus nec. Donec efficitur mollis
+          odio et laoreet. Aenean ac justo efficitur, euismod nisi non, sagittis
+          enim. Integer bibendum pretium purus sed aliquam. Proin pretium
+          aliquet mi. Curabitur eu sapien massa. Fusce vel leo quis dui lobortis
+          ultrices non nec ipsum. Donec et ullamcorper nisl. Ut consequat sapien
+          et dolor accumsan, eu volutpat neque vulputate. Nam id tempus velit.
+          Etiam at tortor eget dolor viverra molestie. Donec porta neque eros,
+          et vehicula justo lacinia quis.
+        </p>
+        <p>
+          Nam lacinia feugiat pulvinar. Aliquam erat volutpat. Sed cursus
+          volutpat justo, ac convallis nunc luctus vehicula. Proin ultrices
+          imperdiet bibendum. Curabitur vitae pharetra leo, ut fermentum arcu.
+          Sed ullamcorper lorem et pulvinar interdum. Proin volutpat imperdiet
+          augue nec iaculis. Interdum et malesuada fames ac ante ipsum primis in
+          faucibus. Quisque tempus consectetur commodo.
+        </p>
+      </div>
+      <div id="colB">
+        <h2>Connecticut Sun: Pro Basketball at Mohegan Sun</h2>
+        <p>
+          In tincidunt tellus metus, vel condimentum diam rhoncus ut. Nullam eu
+          turpis ligula. Nulla vehicula nisl augue, posuere commodo nulla
+          feugiat eget. Sed mattis ultricies purus eu auctor. Donec aliquam ante
+          leo, sed ultrices libero egestas at. Donec quis magna aliquam, auctor
+          turpis sed, tincidunt orci. Mauris suscipit eros nec nunc vulputate
+          rhoncus at dictum ipsum. Aenean pretium nulla eget gravida convallis.
+          Donec non dolor a diam egestas commodo. Sed et lectus sit amet sapien
+          iaculis consectetur. Phasellus imperdiet purus sit amet suscipit
+          placerat. Integer ac lorem eu lectus eleifend iaculis eget sit amet
+          ante. Maecenas sed ex ipsum.
+        </p>
+        <p>
+          Nulla sed mauris auctor, sagittis ipsum quis, aliquam mauris.
+          Pellentesque lobortis faucibus hendrerit. Sed ullamcorper vestibulum
+          neque nec molestie. Suspendisse potenti. Suspendisse gravida vehicula
+          eros. Nam consequat nec massa et tincidunt. Morbi euismod mollis
+          iaculis. Donec nec est ex. Aenean sit amet ante vestibulum, ultrices
+          tellus vel, rutrum nibh. Orci varius natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Suspendisse est quam,
+          ultrices vel rhoncus condimentum, convallis vel libero.
+        </p>
+      </div>
+      <div id="colC">
+        <h2>Mysteries of Connecticut</h2>
+        <p>
+          Donec eget euismod orci, a ultrices tortor. Ut et pretium arcu. Ut ut
+          est id elit dapibus aliquam ut eu massa. Maecenas varius ligula a nunc
+          tempor ullamcorper. Sed luctus finibus nulla, vestibulum commodo sem.
+          Nulla sed ligula varius, ullamcorper magna non, hendrerit nulla. In
+          hac habitasse platea dictumst. Sed ut nulla vel metus fringilla
+          iaculis ut eget mauris. Curabitur sit amet urna euismod, rutrum velit
+          vitae, porttitor massa. Nam facilisis nisi vel nisl vestibulum, eget
+          lobortis massa tincidunt. Etiam cursus sem sit amet tortor posuere, eu
+          ultricies lacus venenatis. Vestibulum interdum sollicitudin porttitor.
+          Fusce nec sollicitudin orci.
+        </p>
+      </div>
+      <footer>Copyright &copy;2018 Framework Television</footer>
+    </div>
+    <!--End of Master-->
+  </body>
+</html>
