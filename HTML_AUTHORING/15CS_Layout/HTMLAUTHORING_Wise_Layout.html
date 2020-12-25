@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet" />
+    <title>HTML Authoring Wise_Layout</title>
+  </head>
+  <style>
+    #container {
+      background-color: cornsilk;
+      width: 90%;
+      margin: 0 auto;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.5em;
+    }
+    #header {
+      border: solid 2px;
+    }
+    #header header,
+    h1,
+    h2 {
+      text-align: center;
+      margin: 0px;
+      padding: 5px;
+    }
+    .col {
+      width: 33.33%;
+      margin-top: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-left: solid 1px;
+      float: left;
+      box-sizing: border-box;
+    }
+    .col h1,
+    h2,
+    h3 {
+      margin: 0px;
+      padding-top: 1.5em;
+    }
+    .col img {
+      width: 80%;
+      margin-left: 10%;
+    }
+    .col h4 {
+      width: 75%;
+      margin: 0px;
+      margin-left: 10%;
+      padding-left: 5%;
+      border-left: solid rgba(128, 128, 128, 0.658) 3px;
+    }
+
+    .col p {
+      margin: 0px;
+      padding-top: 0.5em;
+      font-family: serif;
+    }
+
+    #c1 {
+    }
+    #c2 {
+    }
+    #c3 {
+      border-right: solid 1px;
+    }
+
+    #footer footer {
+      clear: both;
+      font-size: 0.8em;
+      font-weight: lighter;
+      border: solid 2px;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .col {
+        float: none;
+        width: 100%;
+        border-right: solid 1px;
+      }
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="header">
+        <header><h1>News About Nothing</h1></header>
+        <header><h2>All the Nothing News That's Fit To Post</h2></header>
+      </div>
+      <!--End Of Header-->
+      <div id="c1" class="col">
+        <h3>Airliner Takes Off, Lands Normally</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
+          elementum quam. Maecenas sagittis libero sed
+          libero tincidunt, porta iaculis mi facilisis. Quisque pretium
+          tristique nulla ac mattis. Suspendisse tempus
+          arcu a magna laoreet malesuada.
+        </p>
+        <p>
+          Fusce enim justo, ultrices in rutrum non, mollis non leo. Donec sed
+          mauris turpis. Suspendisse nunc augue,
+          maximus at eros sed, pharetra dapibus leo. Maecenas dignissim
+          ullamcorper ornare. Nulla facilisi. Nunc nulla
+          sem, varius id lacinia nec, efficitur nec magna. Sed augue dui,
+          sollicitudin vitae leo vitae, mollis feugiat
+          neque. Integer posuere mattis dapibus. Aenean molestie feugiat justo
+          sit amet ullamcorper. Cras vitae libero
+          quis lacus venenatis aliquet posuere quis ante. Cras ut velit sed
+          ipsum pharetra condimentum. Vivamus a
+          fermentum velit. Donec at dictum orci. Morbi eu arcu vitae metus
+          rutrum ultricies ut id purus. Nunc eu risus
+          elit. Integer accumsan eget metus ut vulputate.
+        </p>
+        <p>
+          Sed velit massa, ultricies in nisl ut, eleifend iaculis nunc. Vivamus
+          vestibulum odio nulla, non tempus felis
+          pharetra et. Maecenas purus lectus, elementum id nunc a, venenatis
+          accumsan ligula. Integer non porta orci, a
+          sodales turpis. Vivamus in magna quis enim consequat malesuada. Sed
+          mattis tincidunt finibus. Nunc in dolor
+          fermentum, consectetur magna at, faucibus nunc. Suspendisse potenti.
+          In arcu turpis, vestibulum dapibus nisl
+          sit amet, vestibulum faucibus felis. Aliquam et ligula eget mi
+          pharetra euismod. Sed ullamcorper a felis vel
+          pulvinar. Cras iaculis vestibulum massa et bibendum. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit.
+          Praesent laoreet diam diam, eget tempor odio laoreet non. Nam dapibus
+          justo ut tellus pulvinar, sed ornare
+          massa tempus. Quisque quam metus, tempor ac nibh ut, accumsan
+          hendrerit mauris. Cras consectetur elit sem. In
+          quis rhoncus lacus.
+        </p>
+      </div>
+      <div id="c2" class="col">
+        <h3>Worker Goes to Work and Comes Home</h3>
+        <img src="worker.jpg" alt="Happy Worker" />
+
+        <h4>Brave Worker Calls it "Just Another Day"</h4>
+        <p>
+          Aliquam non purus finibus, lobortis ex nec, pulvinar ante. Integer
+          tincidunt mauris sed purus commodo, a
+          gravida justo pellentesque. Vivamus at mi non augue tristique
+          molestie. Nulla tincidunt sed risus sit amet
+          lacinia. Quisque feugiat accumsan ligula non elementum. In non sem
+          tristique, suscipit dui vitae, dapibus
+          nibh. Ut auctor porttitor tellus non vulputate. Ut vulputate nibh nec
+          risus dictum, ornare auctor urna luctus.
+          Sed ac nunc lacus. Vestibulum sed tortor ut enim efficitur fringilla.
+          Proin semper fermentum massa eu congue.
+          Suspendisse rhoncus lectus eu rhoncus tempor. Nulla bibendum fermentum
+          ante, sed cursus risus pellentesque
+          eget. Sed suscipit ipsum vitae diam condimentum, at faucibus libero
+          commodo. Maecenas vulputate scelerisque
+          sollicitudin.
+        </p>
+        <p>
+          Sed consectetur nisi non quam mattis suscipit. Nam laoreet vestibulum
+          dui vitae molestie. Duis bibendum dolor
+          consectetur, aliquam turpis ac, accumsan est. Quisque massa mi,
+          lobortis ac efficitur vel, porttitor eget
+          eros. Suspendisse mi enim, accumsan sit amet dignissim ac, vestibulum
+          quis lectus. Quisque nec semper metus,
+          non ullamcorper turpis. Donec ac placerat enim. Ut aliquam risus quis
+          purus interdum luctus. Ut vel risus at
+          mi fringilla ornare. Proin facilisis risus id tellus fringilla
+          malesuada. Donec at auctor ipsum. Maecenas leo
+          orci, sollicitudin non justo eu, tincidunt semper libero. Pellentesque
+          faucibus eu turpis accumsan
+          scelerisque. Nullam a mollis est.
+        </p>
+        <p>
+          Nulla elementum dolor elit, nec maximus ante consectetur eu. Nam metus
+          lorem, rhoncus id ultricies sed,
+          posuere nec nibh. Phasellus pulvinar, erat vitae convallis
+          pellentesque, arcu turpis varius nibh, in vulputate
+          ipsum magna ac neque. Suspendisse aliquet, dui eu placerat mollis,
+          sapien nulla sodales nisl, nec faucibus sem
+          velit vel enim. Quisque quis risus augue. Nulla facilisi. Nulla quam
+          ex, varius eu mauris et, egestas gravida
+          lectus. Proin porttitor enim ipsum.
+        </p>
+        <p>
+          Fusce non lacus lacus. Integer porta laoreet lacus, a scelerisque
+          turpis vehicula vel. Etiam faucibus dictum
+          nunc eget imperdiet. Phasellus maximus quis lorem in aliquam. Orci
+          varius natoque penatibus et magnis dis
+          parturient montes, nascetur ridiculus mus. Etiam a orci malesuada,
+          tincidunt orci a, porta dui. Duis eu tortor
+          ac purus efficitur ultricies. Cras at dictum ex. Quisque sagittis
+          felis quam, ut aliquam erat porttitor eu.
+          Vivamus nibh lectus, elementum et vestibulum at, interdum ut nulla.
+          Maecenas id condimentum nulla. Mauris
+          blandit elit dolor. Pellentesque purus nisi, volutpat ut arcu
+          condimentum, pulvinar lacinia felis. Nullam eget
+          lorem elit. Morbi fermentum leo a erat pretium dictum. Proin ut felis
+          faucibus, ullamcorper justo nec,
+          consequat leo. In eu placerat massa. Morbi vel pharetra lacus. Proin
+          nec lectus id ante blandit maximus nec
+          vitae turpis. Vivamus eleifend ac augue in tincidunt. Fusce malesuada
+          purus iaculis, molestie mi a, tempor
+          augue. Donec eget elit sollicitudin, hendrerit elit nec, vulputate
+          justo. Sed eleifend porta arcu, in rutrum
+          neque aliquet condimentum. Class aptent taciti sociosqu ad litora
+          torquent per conubia nostra, per inceptos
+          himenaeos.
+        </p>
+        <p>
+          Sed vel dui nec enim sodales vulputate at vel nulla. Donec nec nibh ac
+          arcu tristique ultrices. Nam blandit
+          massa a ante vestibulum, eget auctor lacus hendrerit. Vestibulum et
+          fringilla orci.
+        </p>
+      </div>
+      <div id="c3" class="col">
+        <h3>Hairbands: Out in the 80's, Back in the 2010's</h3>
+        <p>
+          Integer sed enim justo. Donec diam ante, sodales vel augue at,
+          malesuada interdum augue. Proin vel diam at
+          metus tristique rutrum sed nec mi. Etiam volutpat mattis quam, vel
+          dignissim metus ultrices sit amet.
+          Curabitur posuere porttitor massa non posuere. Proin molestie ac
+          mauris in euismod. Aenean eu ultricies eros,
+          eget luctus orci. Sed consectetur neque nec dictum interdum. Integer
+          ipsum justo, gravida imperdiet libero sit
+          amet, congue ullamcorper lacus. Etiam dignissim mauris et nibh
+          ultricies tincidunt. Aenean lobortis enim vitae
+          est lacinia mattis. Aenean luctus luctus quam. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Nunc
+          quis sem at velit porta tincidunt non ac odio.
+        </p>
+        <p>
+          Mauris malesuada, nisi interdum feugiat dictum, purus nunc mollis
+          urna, non vulputate risus nunc sit amet
+          eros. Suspendisse sodales nisi quis nulla venenatis, in pulvinar enim
+          pretium. Vestibulum luctus vestibulum
+          ex, ut suscipit diam lobortis in. Nunc auctor vitae lacus quis
+          condimentum. Cras feugiat dolor eu enim
+          blandit, quis vehicula sem luctus. Curabitur vulputate neque ac felis
+          fermentum, nec iaculis urna venenatis.
+          Nullam rhoncus tellus diam, vitae pellentesque lorem aliquam eu.
+          Nullam vel enim ac eros viverra volutpat ac
+          elementum purus. Nunc euismod erat non lacus imperdiet, non sagittis
+          augue tincidunt. Aliquam semper, enim
+          eget dignissim dignissim, metus dui venenatis mauris, vel condimentum
+          risus nibh vitae quam.
+        </p>
+      </div>
+      <div id="footer">
+        <footer>Copyright ©2015 I LearnToProgram Media</footer>
+      </div>
+      <!--End Of Footer-->
+    </div>
+    <!-- Master Container-->
+  </body>
+</html>
